@@ -17,7 +17,8 @@ Here're the course sections:
 *   ☑️ CSS Foundations: Part I
 *   ☑️ CSS Foundations: Part II
 *   ☑️ CSS Foundations: Part III
-*   🔘 CSS Foundations: Part IV
+*   ☑️ CSS Foundations: Part IV
+*   🔘 Putting It All Together
 
   
   
