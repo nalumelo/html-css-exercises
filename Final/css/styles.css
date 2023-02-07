@@ -1,7 +1,4 @@
 /* ===============================
-   Author: {YOUR NAME HERE}
-   Date:   {DATE HERE}
-   
    Notes:
    Hand coded for Build a Website
    from Scratch with HTML & CSS
@@ -13,15 +10,90 @@
    Orange:			#d17f38
    Yellow:			#e8c04f
    Brown:			#4b2707
+
+   Fonts:
+   --------------
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Love Ya Like A Sister', cursive;
    =============================== */
+
 
 /* General */
 
+body {
+   background: #f2f3ee url('../images/bg-tile.gif') top left repeat;
+   color: #4b2707;
+   font-size: 14px;
+   font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+   text-rendering: optimizeLegibility;
+}
 
+.container {
+   width: 924px;
+   margin: 0 auto;
+   padding: 30px 24px;
+}
 
 /* Typography */
 
+h1, h2 {
+   color: #d17f38;
+   font-size: 40px;
+   font-weight: normal;
+   line-height: 44px;
+   margin: 0;
+   font-family: 'Love Ya Like A Sister', cursive;
+}
 
+h1 {
+   text-align: center;
+   padding: 0 0 20px;
+   background: url('../images/header-divider.png') bottom center no-repeat;
+}
+
+h1 em {
+   font-style: normal;
+   color: #4b2707;
+}
+
+h2 {
+   font-size: 34px;
+}
+
+h3 {
+   margin: 0;
+}
+
+p.lead {
+   font-size: 30px;
+   font-weight: 300;
+   text-align: center;
+   margin: 10px 0;
+}
+
+p {
+   margin: 0;
+}
+
+a:link {
+   color: #d17f38;
+}
+
+a:visited {
+   color: #d17f38;
+}
+
+a:hover {
+   color: #4b2707;
+}
+
+hr {
+   border: none;
+   height: 33px;
+   width: 333px;
+   margin: 30px auto;
+   background: url('../images/divider.png') center center no-repeat;
+}
 
 /* Header */
 
@@ -54,8 +126,3 @@
 	}
 * html .group             { zoom: 1; } /* IE6 */
 *:first-child+html .group { zoom: 1; } /* IE7 */
-
-
-
-
-
